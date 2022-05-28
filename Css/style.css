@@ -1,0 +1,150 @@
+
+:root{
+    --color-red:#F03C42 ;
+    --color-white:#FFFFFF;
+    --color-Navy-blue: #222374;
+    --color-light-gray: #CCCCCC;
+    --color-black:#000000;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+
+
+*{
+    font-family: 'Open Sans' , sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: var(--color-red);
+    height: 100px;  
+    padding: 38px;   
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;     
+    align-items: center;  
+}
+
+nav h1{
+    color: var(--color-white);
+    font-size: 18px;
+}
+
+nav a{
+    color: var(--color-white);
+    font-size: 14px;   
+    text-decoration: none;
+    padding: 10px;
+   
+
+}
+
+
+
+.legal{
+    display: flex;
+    align-items: center;
+}
+
+
+
+#our-space{
+    background-color: var(--color-Navy-blue);
+    height: 418px;
+    
+}
+
+#our-space h2 {
+    color: var(--color-white);
+    font-size: 32px; 
+    padding: 20px 0px;   
+}
+.space{
+    height: 127px;
+    margin: 20px 0px;
+    padding: 20px 20px;
+    background-color: var(--color-light-gray);
+    border-radius: 8px;
+}
+
+.space p {
+    padding: 20px 0px;
+    font-size: 14px;
+}
+
+
+#modalities{
+    background-color: var(--color-white);
+    height: 880px;
+}
+
+#modalities h2{
+    padding: 20px 0px;
+    font-size: 32px;
+    color: var(--color-red);
+}
+
+.description{
+    margin: 20px 0px;
+    padding: 20px; 
+    background-color: var(--color-Navy-blue);
+    height: 106px;
+    border-radius:8px;    
+}
+.description h3{
+    color: var(--color-white);
+    font-size: 20px;
+}
+
+.description p {
+    color: var(--color-white);
+    font-size: 14px;
+    padding: 20px 0px;
+}
+
+
+
+footer{
+  height: 262px;
+  background-color: var(--color-black);
+  padding: 60px 0px;
+
+    
+}
+
+.teste{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+footer a {
+    color: var(--color-white);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 14px;
+}
+footer p ,address{
+    color: var(--color-white);
+    font-size: 14px;
+}
+
+.teste2{
+    padding: 10px;
+}
+.teste1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
